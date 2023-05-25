@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio | PuneetChauhan.com | Onine CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="typed.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <nav>
+        <a href="#home"><div class="logo">Puneet<span>Chauhan</span>.</div></a>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </label>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="home" id="home">
+        <div class="text">
+        <div class="text-1">
+            Hello, my name is
+        </div>
+        <div class="text-2">
+           Puneet Chauhan
+        </div>
+        <div class="text-3">
+            And I'm a <span id="typing-effect" style="color:red;"></span>
+        </div>
+        <div>
+           <button class="home-btn"><a href="#contact">Hire Me</a></button>
+        </div>
+        </div>
+    </section>
+
+<!-- About section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/about1.jpg" alt="About me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>A motivated and confident individual with a strong foundation in computer programming and problem-solving. I am eager to contribute my skills to a dynamic and innovative team</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>C, C++, Python, HTML, CSS</li>
+                            <li><span>Frameworks</span><br>Reactjs, Bootstrap</li>
+                            <li><span>Data Analysis</span><br>MS-Excel, R Programming, Tableau</li>
+                            <li><span>Data Structure and Algorithm</span></li>
+                            <li><span>Front End Web Developer</span></li>
+                            <li><span>Good Communication and Presentation skills</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>Matriculation - 73%</li>
+                            <li><span>2020</span><br>Intermediate - 83%</li>
+                            <li><span>2020-2024</span><br>B.Tech (CSE)<br>2020-2024<br>Cgpa - 7.14</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- skills page -->
+    
+    <section class="skills" id="skills">
+        <div class="skills-text">
+            <span>-----</span>My Skills<span>------</span>
+        </div>
+        <div id="card">
+          <div class="container1">
+                <i class="fas fa-code"></i>
+                <p>Having knowledge of various programming languages, 6 star coder on Hackerrank and 2 star coder on CodeChef</p>
+            </div>
+              <div class="container2">
+                <i class="fas fa-database"></i>
+                <p>Can provide you help in any Data Structure and also suggest you the optimise solution for any data structure problem                </p>
+            </div>
+            <div class="container3">
+                <i class="fas fa-chart-line"></i>
+                <p>Analyze your data and manipulate as well and can convert it to an easily understandable format using Excel and Tableau and give you quick conclusions</p>
+            </div>
+          </div>
+    </div>
+    </section>
+    <!-- projects  -->
+    
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="portfolio-text">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/project1.png" alt="studyonline">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>All about me on a single page created using Front-end Technologies</p>
+                        <a href="#"><i class="fas fa-link" target="_blank"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/project2.png" alt="studyonline">
+                    <div class="layer">
+                        <h3>Online Learning Platform</h3>
+                        <p>An online learning app created using html,css</p>
+                        <a href="https://puneetstudies2.netlify.app/" target="_blank"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/project3.png" alt="studyonline">
+                    <div class="layer">
+                        <h3>Tax calculator</h3>
+                        <p>Income Tax Calculator created using pyton and GUI</p>
+                        <a href="https://github.com/puneet7803/Income-Tax-Calculator" target="_blank"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/puneet7803" target="_blank"><button class="p-btn">See More</button></a>
+        </div>
+     </div>
+    <!-- Contact me page  -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="contact-heading">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>puneet7803@gmail.com</p>
+                    <p><i class="fas fa-phone"></i>9971192479</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/puneetchauhan001/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/puneet7803" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/puneet-chauhan-8439261b6/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1ZeGZ1U9k77ViG6x0cdCkxhaXyVQWxrPX/view?usp=sharing" class="cv-btn" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="cv-btn">Submit</button>
+                    </form>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer" id="footer">
+        <h3>Personal Portfolio &copy; made by Puneet Chauhan</h3>
+    </footer>
+    <script>
+        let animate = new Typed('#typing-effect',{
+            strings:["Programmer", "Front End Developer", "Web Developer"],
+            typeSpeed:100,
+            backSpeed:60,
+            loop:true,
+        })
+
+        let ani = new Typed('#about-effect',{
+            strings:["Programmer", "Front End Developer", "Software Developer"],
+            typeSpeed:100,
+            backSpeed:60,
+            loop:true,
+        })
+    </script>
+    <!-- fot about section -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyG-Ftu-nHMN1MovaR2o8A5rs89zQkUHbgN_RjvS5uzzr-XVEiyp0u6BnOlq3a3TiYWaw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
